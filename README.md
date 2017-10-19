@@ -1,6 +1,12 @@
 # bathtubs-and-rainbows
 (Qualitative Reasoning) - Modeling the behaviors in container systems like bathtubs and sinks
 
+### Output
+`git clone` or download the project as zip. The project can be run either using 
+1. python (jupyter notebook - gives only print statements of the state)
+2. javascript (index.html, main.js). Requires latest verion of node.js to be installed
+
+
 ### Assumptions
 `In causal ordering, exogenous functions are viewed as the start of causal chains`
 
@@ -23,4 +29,3 @@ Two exogenous functions are considered for the inflow of water into the containe
 3. P+(Volume, Outflow) - Outflow changes are proportional to volume changes
 4. VC(Volume(max), Outflow(max)) - The outflow is at its highest value (max), when the volume is at its highest value (also max).
 5. VC(Volume(0), Outflow(0)) - There is no outflow, when there is no volume.
-
