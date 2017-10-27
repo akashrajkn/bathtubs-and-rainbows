@@ -38,7 +38,7 @@
     'derivatives': ['+', '0', '-'],
     'initial_state': {
         'id': 0,
-        'previous_state': -1,
+        'previous_state': [-1],
         'inflow': ['0', '0'],
         'volume': ['0', '0'],
         'outflow': ['0', '0']
